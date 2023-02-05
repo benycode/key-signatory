@@ -1,0 +1,22 @@
+{
+    "name": "benycode/key-signatory",
+    "description": "Validate and sign content with a private and public key",
+    "keywords": ["RSA","public key","private key","signature", "validate"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Benycode"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenyCode\\KeySignatory\\": "src"
+        }
+    },
+	"config": {
+        "preferred-install": "dist"
+    }
+}
